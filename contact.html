@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Code Coach</title>
+</head>
+    <body>
+
+        <!-- Navbar -->      
+            <nav id="mainNavbar" class="navbar navbar-expand-sm sticky-top navbar-dark">
+                <div class="container">             
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#coachNavbar" aria-controls="coachNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="coachNavbar">
+                            <ul class="navbar-nav nav-fill w-100">   
+                                <li class="nav-item"><a class="nav-link" href="index.html"> HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html"> ABOUT</a></li>
+                                <li class="nav-item"><a class="nav-link" href="coaches.html"> COACHES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html"> CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">Contact</li>
+                        </ol>
+                        <h2 class="text-white">Contact Us</h2>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container formcontainer text-white mb-5 rounded-lg w3-animate-top">
+        
+                <div class="row row-content align-items-center">
+                    <div class="col-sm-4">
+                        <h5>Our Address</h5>
+                        <address>
+                            5 Coach St.<br />
+                            Palo Alto, CA 87905<br />
+                            U.S.A.
+                        </address>
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-link" role="button" href="tel:+11234567890"> <i class="fa fa-phone"> </i> 1-123-456-7890</a> <br>
+                        <a class="btn btn-link" role="button" href="mailto:coachcoach@coach.co"> <i class="fa fa-envelope-o"> </i> codecoach@coach.co </a>
+                    </div>
+                </div>
+        
+                <div class="row row-content">
+                    <div class="col-12">
+                        <h2>Schedule Your First Session</h2>
+                        <hr />
+                    </div>
+                    <div class="col-md-10">
+                            <form>
+                                    <div class="form-group row">
+                                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                                        <div class="col-md-10">
+                                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                                        <div class="col-md-10">
+                                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                                        <div class="col-5 col-md-3">
+                                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" required/>
+                                        </div>
+                                        <div class="col-7">
+                                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                                        <div class="col-md-10">
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="coach" class="col-md-2 col-form-label">Coach</label>
+                                        <div class="col-md-10">
+                                            <select name="coach" id="coach" class="form-control" required>
+                                                <option value="1" selected disabled>Select One</option>
+                                                <option value="1">Mark Wang</option>
+                                                <option value="1">Susan Ashcroft</option>
+                                                <option value="1">Farah Amin</option>
+                                                <option value="1">Bobby Johnson</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="feedback" class="col-md-2 col-form-label">Coach's Message</label>
+                                        <div class="col-md-10">
+                                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="offset-md-2 col-md-10">
+                                            <button class="btn btn-lg btn-info" type="submit">Schedule</button>
+                                        </div>
+                                    </div>
+                                </form>
+                    </div>
+               </div>
+        
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+
+        <footer class="site-footer sticky-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="coaches.html">Coaches</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-2x"></i></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <a class="btn btn-link" role="button" href="tel:+1234567890"><i class="fa fa-phone fa-lg"></i> 1-123-456-7890 </a> <br /> 
+                        <a class="btn btn-link" role="button" href="mailto:codecoach@coach.co"><i class="fa fa-envelope-o fa-lg"></i> codecoach@coach.co </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Additional Javascript -->
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

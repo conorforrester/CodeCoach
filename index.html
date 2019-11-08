@@ -1,34 +1,109 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Code Coach</title>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-        <!-- Additional CSS must be placed after Bootstrap CSS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-    </head>
+    <title>Code Coach</title>
+</head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
+        <!-- Navbar -->      
+            <nav id="mainNavbar" class="navbar navbar-expand-sm sticky-top navbar-dark">
+                <div class="container">             
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#coachNavbar" aria-controls="coachNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="coachNavbar">
+                            <ul class="navbar-nav nav-fill w-100">   
+                                <li class="nav-item"><a class="nav-link" href="index.html"> HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html"> ABOUT</a></li>
+                                <li class="nav-item"><a class="nav-link" href="coaches.html"> COACHES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html"> CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        <!-- Initial Landing Page -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card border-0 shadow my-5 w3-animate-left">
+                        <div class="card-body text-white text-center p-5">
+                            <h1 class="font-weight-light">One on One Learning</h1>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card border-0 shadow my-5 w3-animate-right">
+                        <div class="card-body text-white text-center p-5">
+                            <h1 class="font-weight-light">Affordable Pricing Options</h1>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card border-0 shadow my-5 w3-animate-left">
+                        <div class="card-body text-white text-center p-5">
+                            <h1 class="font-weight-light">Your Own Schedule</h1>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="site-footer sticky-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="coaches.html">Coaches</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-2x"></i></a>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <a class="btn btn-link" role="button" href="tel:+1234567890"><i class="fa fa-phone fa-lg"></i> 1-123-456-7890 </a> <br /> 
+                        <a class="btn btn-link" role="button" href="mailto:codecoach@coach.co"><i class="fa fa-envelope-o fa-lg"></i> codecoach@coach.co </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
         
-            <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Additional Javascript -->
+        <script src="js/script.js"></script>
+
     </body>
 </html>

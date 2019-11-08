@@ -1,0 +1,147 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: url(../img/carousel3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Navbar Styles */
+
+.navbar-nav > li {
+    font-size: 120%;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-nav > li > a:hover {
+    color: #53adc0 !important;
+}
+
+.navbar-nav > li > a {
+    color: white !important;
+}
+
+.navbar.scrolled {
+    background: #133975;
+    color: white;
+    transition: background 500ms;
+}
+
+#brand {
+    margin-bottom: 2px;
+}
+
+.site-footer {
+    background-color: #133975;
+    padding: 20px 0px;
+    color: white;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-footer a:hover {
+    color: #53adc0;
+    text-decoration: none;
+}
+
+.card-body {
+    background-color: #133975;
+    opacity: 85%;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+.carousel {
+    background-color: #133975;
+    opacity: 85%;
+    color: black;
+    border-radius: 10px;
+}
+
+.carousel-caption p {
+    padding-bottom: 0px;
+    padding-top: 0px;;
+}
+
+.carousel img {
+    margin:auto;
+    margin-bottom: 150px;
+    margin-top: 25px;
+    padding: auto;
+}
+
+.invert{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.breadcrumb {
+    background: #133975;
+    opacity: 85%;
+}
+
+.breadcrumb li a {
+    color: white;
+}
+
+.breadcrumb li {
+    color: #53adc0 !important;
+}
+
+.circlebg {
+    background: #133975;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    opacity: 85%;
+    height: 275px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 3px #133975 solid;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0 40px 0 40px;
+}
+
+
+h3 {
+    padding: 0 40px 0 40px;
+}
+
+.formcontainer {
+    background: #133975;
+    opacity: 85%;
+}
+
+.col a {
+    color: white;
+}
+
+.col a:hover {
+    color:#53adc0;
+}
