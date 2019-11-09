@@ -8,7 +8,7 @@ $(function() {
 
 //carousel slide interval
 $(function(){
-    $(".carousel").carousel( { interval: 100000});
+    $(".carousel").carousel( { interval: 5000});
 });
 
 
